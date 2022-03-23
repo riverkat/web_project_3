@@ -1,0 +1,50 @@
+.places__container {
+}
+
+.card {
+  display: grid;
+}
+
+.card__ukraine {
+  display: grid;
+}
+
+.card__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+}
+
+.card__content-subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.card__content-author {
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.card__content-paragraph {
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.card__image:last-of-type {
+  max-width: 460px;
+  max-height: 460px;
+}
+
+.card__button {
+  max-width: 248px;
+  max-height: 48px;
+  padding: 13px 20px;
+  background-color: #0278fe;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  border: none;
+  border-radius: 4px;
+}

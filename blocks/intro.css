@@ -1,0 +1,36 @@
+.intro {
+  padding-left: 148px;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  max-width: 785px;
+  /* max-height: 116px;*/
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.intro__content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 118px;
+}
+
+.intro__paragraph {
+  font-size: 24px;
+  line-height: 1.42;
+  margin: 0;
+}
+
+.intro__paragraph:nth-of-type(2) {
+  align-self: end;
+  margin-top: 10px;
+}
+
+.intro__paragraph:last-of-type {
+  font-size: 16px;
+  line-height: 1.63;
+  margin-top: 32px;
+}
