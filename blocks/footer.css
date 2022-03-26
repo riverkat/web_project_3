@@ -1,0 +1,14 @@
+.footer {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-bottom: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.footer__paragraph {
+  margin: 0;
+}
