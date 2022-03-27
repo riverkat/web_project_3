@@ -12,3 +12,9 @@
 .footer__paragraph {
   margin: 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    padding-top: 88px;
+  }
+}

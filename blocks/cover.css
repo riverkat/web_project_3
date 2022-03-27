@@ -64,3 +64,30 @@
   text-decoration: none;
   color: #ffffff;
 }
+
+@media screen and (max-width: 1000px) {
+  .cover {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover {
+    min-width: 100%;
+    padding-bottom: 100%;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0;
+    padding-bottom: 16px;
+  }
+
+  .cover__address {
+    font-size: 14px;
+    line-height: 1.14;
+    padding: 0 0 14px 0;
+    margin: 0;
+  }
+}

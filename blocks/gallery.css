@@ -6,3 +6,24 @@
   grid-gap: 16px;
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 1000px) {
+  .gallery__list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0 24px 88px 24px;
+  }
+
+  .gallery__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery__list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-row-gap: 12px;
+    padding: 0 16px 62px 16px;
+  }
+}

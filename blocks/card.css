@@ -1,0 +1,123 @@
+.card {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  grid-column-gap: 40px;
+  grid-template-areas:
+    "title artist"
+    "art content";
+  padding-bottom: 93px;
+  max-width: 985px;
+  margin: 0 auto;
+}
+
+.card__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  grid-area: title;
+  max-width: 460px;
+  margin: 0;
+  padding-bottom: 48px;
+}
+
+.card__author-container {
+  grid-area: artist;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 48px;
+}
+
+.card__author-subtitle {
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.card__author {
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+}
+
+.card__content-container {
+  grid-area: content;
+  max-width: 485px;
+}
+
+.card__content-paragraph {
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.card__content-paragraph:last-of-type {
+  padding-bottom: none;
+}
+
+.card__image-container {
+  grid-area: art;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__image {
+  grid-area: image;
+  padding-bottom: 48px;
+}
+
+.card__image:last-of-type {
+  max-width: 460px;
+  max-height: 460px;
+}
+
+.card__button {
+  max-width: 248px;
+  max-height: 48px;
+  padding: 13px 20px;
+  background-color: #0278fe;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  border: none;
+  border-radius: 4px;
+  grid-area: button;
+  transition: 0.2s ease-in-out;
+}
+
+.card__button:hover {
+  background-color: #0063d2;
+  cursor: pointer;
+}
+
+.card__button_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  .card__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .card__image-container {
+    max-width: 340px;
+  }
+
+  .card__content-container {
+    max-width: 352px;
+  }
+
+  .card__content-paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
