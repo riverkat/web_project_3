@@ -49,20 +49,16 @@
   background-color: #0278fe;
   padding: 13px 20px;
   transition: 0.2s ease-in-out;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 13px 20px;
+  color: #ffffff;
 }
 
 .cover__button:hover {
   background-color: #0063d2;
   cursor: pointer;
-}
-
-.cover__button-text {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 100%;
-  padding: 13px 20px;
-  text-decoration: none;
-  color: #ffffff;
 }
 
 @media screen and (max-width: 1000px) {

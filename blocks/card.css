@@ -91,11 +91,6 @@
   cursor: pointer;
 }
 
-.card__button-link {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 @media screen and (max-width: 1000px) {
   .card {
     grid-template-columns: auto;
