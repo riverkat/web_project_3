@@ -116,7 +116,7 @@
 
   .card__image:last-of-type {
     max-width: 340px;
-    max-width: 340px;
+    max-height: 340px;
   }
 
   .card__content-container {
