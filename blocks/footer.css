@@ -18,3 +18,9 @@
     padding-top: 88px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .footer {
+    padding-top: 64px;
+  }
+}
