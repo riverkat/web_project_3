@@ -33,31 +33,29 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .intro {
-    padding-left: 24px;
-  }
-
   .intro__title {
     max-width: 720px;
+    margin: 0 auto;
   }
 
   .intro__content {
     padding-bottom: 90px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .intro {
-    padding: 0 16px;
-  }
-
   .intro__title {
     font-size: 32px;
     line-height: 1.09;
+    max-width: 288px;
+    margin: 0 auto;
   }
 
   .intro__content {
     padding-bottom: 90px;
+    max-width: 288px;
+    margin: 0 auto;
   }
 
   .intro__paragraph:first-of-type {

@@ -91,7 +91,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .card {
     grid-template-columns: auto;
     grid-column-gap: 28px;
@@ -124,7 +124,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .card__title {
     font-size: 32px;
     line-height: 1.09;
