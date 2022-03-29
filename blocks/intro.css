@@ -1,19 +1,16 @@
-.intro {
-  padding-left: 148px;
-}
-
 .intro__title {
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
   max-width: 785px;
-  margin: 0;
+  margin-left: 148px;
   padding-bottom: 40px;
 }
 
 .intro__content {
   display: flex;
   flex-direction: column;
+  margin-left: 148px;
   padding-bottom: 118px;
   max-width: 720px;
 }
