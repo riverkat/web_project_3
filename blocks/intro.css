@@ -3,7 +3,7 @@
   font-size: 54px;
   line-height: 1.07;
   max-width: 785px;
-  margin-left: 148px;
+  margin: 0 0 0 148px;
   padding-bottom: 40px;
 }
 
@@ -15,21 +15,24 @@
   max-width: 720px;
 }
 
-.intro__paragraph {
+.intro__quote {
   font-size: 24px;
   line-height: 1.42;
   margin: 0;
 }
 
-.intro__paragraph:nth-of-type(2) {
+.intro__source {
   align-self: end;
-  margin-top: 10px;
+  margin: 0;
+  padding: 10px 0 32px 0;
+  font-size: 24px;
+  line-height: 1.42;
 }
 
-.intro__paragraph:last-of-type {
+.intro__description {
   font-size: 16px;
   line-height: 1.63;
-  margin-top: 32px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -49,13 +52,10 @@
     font-size: 32px;
     line-height: 1.09;
     max-width: 288px;
-    margin: 0 auto;
   }
 
   .intro__content {
-    padding-bottom: 90px;
     max-width: 288px;
-    margin: 0 auto;
   }
 
   .intro__paragraph:first-of-type {
