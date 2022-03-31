@@ -113,6 +113,14 @@
 @media screen and (max-width: 600px) {
   .card {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 30px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "content"
+      "button";
   }
 
   .card__title {
@@ -133,18 +141,6 @@
     font-size: 16px;
     line-height: 1.63;
     padding: 0 16px 25px 16px;
-  }
-
-  .card {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-row-gap: 30px;
-    grid-template-areas:
-      "title"
-      "artist"
-      "image"
-      "content"
-      "button";
   }
 
   .card__image {
