@@ -1,14 +1,13 @@
 .card {
   display: grid;
   grid-template-rows: auto auto 1fr;
-  grid-template-columns: auto;
+  grid-template-columns: 460px 1fr;
   grid-column-gap: 40px;
   grid-template-areas:
     "title artist"
     "image content"
     "button content";
   padding-bottom: 93px;
-  max-width: 985px;
   margin: 0 auto;
 }
 
@@ -21,7 +20,6 @@
   font-size: 72px;
   line-height: 1.06;
   grid-area: title;
-  max-width: 460px;
   margin: 0;
   padding-bottom: 48px;
 }
@@ -52,7 +50,6 @@
 
 .card__content-container {
   grid-area: content;
-  max-width: 485px;
 }
 
 .card__content-paragraph {
@@ -72,8 +69,7 @@
 }
 
 .card__image:last-of-type {
-  max-width: 460px;
-  max-height: 460px;
+  max-width: 100%;
 }
 
 .card__button {
@@ -98,29 +94,14 @@
 
 @media screen and (max-width: 1050px) {
   .card {
-    grid-template-columns: auto;
+    grid-template-columns: 340px 1fr;
     grid-column-gap: 28px;
     padding-bottom: 50px;
   }
 
   .card__title {
-    max-width: 340px;
     font-size: 42px;
     line-height: 1.1;
-  }
-
-  .card__image {
-    max-width: 340px;
-    max-height: 340px;
-  }
-
-  .card__image:last-of-type {
-    max-width: 340px;
-    max-height: 340px;
-  }
-
-  .card__content-container {
-    max-width: 352px;
   }
 
   .card__content-paragraph {
@@ -130,23 +111,28 @@
 }
 
 @media screen and (max-width: 600px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
   .card__title {
     font-size: 32px;
     line-height: 1.09;
     padding: 0 16px;
-    max-width: 288px;
   }
 
   .card__author-container {
     padding: 0 16px;
-    max-width: 288px;
+  }
+
+  .card__content-container {
+    margin: 0 auto;
   }
 
   .card__content-paragraph {
     font-size: 16px;
     line-height: 1.63;
     padding: 0 16px 25px 16px;
-    max-width: 288px;
   }
 
   .card {
@@ -164,10 +150,7 @@
   .card__image {
     max-width: 100%;
     padding: 0;
-  }
-
-  .card__image:last-of-type {
-    max-width: 100%;
+    justify-self: auto;
   }
 
   .card__button {
